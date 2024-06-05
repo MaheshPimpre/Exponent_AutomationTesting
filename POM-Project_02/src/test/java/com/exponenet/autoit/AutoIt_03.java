@@ -8,6 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AutoIt_03 {
 
+	public void gitTest()
+	{
+		System.out.println("Welcome in Git");
+	}
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Auto-Se-Test\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
