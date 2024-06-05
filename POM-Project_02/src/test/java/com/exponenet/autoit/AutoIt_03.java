@@ -12,6 +12,11 @@ public class AutoIt_03 {
 	{
 		System.out.println("Welcome in Git");
 	}
+	
+	public void m1()
+	{
+		System.out.println("m1--method");
+	}
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Auto-Se-Test\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
