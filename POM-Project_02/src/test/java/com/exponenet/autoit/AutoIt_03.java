@@ -8,14 +8,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AutoIt_03 {
 
+	
 	public void gitTest()
 	{
 		System.out.println("Welcome in Git");
 	}
+
 	
 	public void m1()
 	{
 		System.out.println("m1--method");
+	}
+
+	static{
+		System.out.println("Static block add");
 	}
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver",
